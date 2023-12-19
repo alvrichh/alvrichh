@@ -1,5 +1,18 @@
 # Mi Perfil
 
+<img align="left" height="250" src="https://github.com/alvrichh/alvrichh/assets/81918923/0208f547-41f2-448f-970a-81a1f213dc6d" alt="octocat" style="margin-right: 2rem;" />
+🔭 Actualmente estoy trabajando en <b>¡algo genial!</b> <br/>
+👯 Estoy buscando colaborar en <b>proyectos interesantes.</b><br/>
+💬 Pregúntame acerca de <b>Full Stack</b>.<br/>
+📫 Contáctame en <a href="https://linktr.ee/alvrich"><b>@alvrichh</b></a> <br/>
+ <br>
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arodmol584@g.educaand.es)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.link/44bcfa)
+
+</span>
+
+
 ## Conéctate conmigo 🌏
 
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/arsync.es/?hl=es)
