@@ -99,20 +99,19 @@
 [![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase "Firebase")](https://firebase.google.com/)
 
 ## Editores de Código y IDEs 📄
-![Visual Studio Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white "Visual Studio Code")
-![Sublime Text](https://img.shields.io/badge/sublime_text-%23575757.svg?style=for-the-badge&logo=sublime-text&logoColor=important "Sublime Text")
-![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white)
-![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/-IntelliJ%20IDEA-%23430098?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)](https://www.vim.org/)
+[![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white)](https://developer.android.com/studio)
+[![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![IntelliJ IDEA](https://img.shields.io/badge/-IntelliJ%20IDEA-%23430098?style=for-the-badge&logo=intellij-idea&logoColor=white)](https://www.jetbrains.com/idea/)
 
 ## Plataformas de Aprendizaje 📚
 
-![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)
-![DigitalOcean](https://img.shields.io/badge/-DigitalOcean-blue?style=flat-square&logo=digitalocean&logoColor=white)
-![FreeCodeCamp](https://img.shields.io/badge/-FreeCodeCamp-green?style=flat-square&logo=freecodecamp&logoColor=white)
-![GeeksForGeeks](https://img.shields.io/badge/-GeeksForGeeks-purple?style=flat-square&logo=geeksforgeeks&logoColor=white)
-![Udemy](https://img.shields.io/badge/-Udemy-red?style=flat-square&logo=udemy&logoColor=white)
-![Quora](https://img.shields.io/badge/-Quora-blue?style=flat-square&logo=quora&logoColor=white)
-![Coursera](https://img.shields.io/badge/-Coursera-blue?style=flat-square&logo=coursera&logoColor=white)
-![Google](https://img.shields.io/badge/-Google-blue?style=flat-square&logo=google&logoColor=white)
+[![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/)
+[![DigitalOcean](https://img.shields.io/badge/-DigitalOcean-blue?style=flat-square&logo=digitalocean&logoColor=white)](https://www.digitalocean.com/)
+[![FreeCodeCamp](https://img.shields.io/badge/-FreeCodeCamp-green?style=flat-square&logo=freecodecamp&logoColor=white)](https://www.freecodecamp.org/)
+[![GeeksForGeeks](https://img.shields.io/badge/-GeeksForGeeks-purple?style=flat-square&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/)
+[![Udemy](https://img.shields.io/badge/-Udemy-red?style=flat-square&logo=udemy&logoColor=white)](https://www.udemy.com/)
+[![Quora](https://img.shields.io/badge/-Quora-blue?style=flat-square&logo=quora&logoColor=white)](https://www.quora.com/)
+[![Coursera](https://img.shields.io/badge/-Coursera-blue?style=flat-square&logo=coursera&logoColor=white)](https://www.coursera.org/)
+[![Google](https://img.shields.io/badge/-Google-blue?style=flat-square&logo=google&logoColor=white)](https://www.google.com/)
+
