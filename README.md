@@ -109,11 +109,11 @@
 ## Plataformas de Aprendizaje 📚
 
 [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/)
-[![DigitalOcean](https://img.shields.io/badge/-DigitalOcean-blue?style=flat-square&logo=digitalocean&logoColor=white)](https://www.digitalocean.com/)
-[![FreeCodeCamp](https://img.shields.io/badge/-FreeCodeCamp-green?style=flat-square&logo=freecodecamp&logoColor=white)](https://www.freecodecamp.org/)
-[![GeeksForGeeks](https://img.shields.io/badge/-GeeksForGeeks-purple?style=flat-square&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/)
-[![Udemy](https://img.shields.io/badge/-Udemy-red?style=flat-square&logo=udemy&logoColor=white)](https://www.udemy.com/)
-[![Quora](https://img.shields.io/badge/-Quora-blue?style=flat-square&logo=quora&logoColor=white)](https://www.quora.com/)
-[![Coursera](https://img.shields.io/badge/-Coursera-blue?style=flat-square&logo=coursera&logoColor=white)](https://www.coursera.org/)
-[![Google](https://img.shields.io/badge/-Google-blue?style=flat-square&logo=google&logoColor=white)](https://www.google.com/)
+[![DigitalOcean](https://img.shields.io/badge/-DigitalOcean-blue?style=for-the-badge&logo=digitalocean&logoColor=white)](https://www.digitalocean.com/)
+[![FreeCodeCamp](https://img.shields.io/badge/-FreeCodeCamp-green?style=for-the-badge&logo=freecodecamp&logoColor=white)](https://www.freecodecamp.org/)
+[![GeeksForGeeks](https://img.shields.io/badge/-GeeksForGeeks-purple?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/)
+[![Udemy](https://img.shields.io/badge/-Udemy-red?style=for-the-badge&logo=udemy&logoColor=white)](https://www.udemy.com/)
+[![Quora](https://img.shields.io/badge/-Quora-blue?style=for-the-badge&logo=quora&logoColor=white)](https://www.quora.com/)
+[![Coursera](https://img.shields.io/badge/-Coursera-blue?style=for-the-badge&logo=coursera&logoColor=white)](https://www.coursera.org/)
+[![Google](https://img.shields.io/badge/-Google-blue?style=for-the-badge&logo=google&logoColor=white)](https://www.google.com/)
 
