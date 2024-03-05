@@ -4,14 +4,11 @@
 🔭 Actualmente estoy trabajando en <b>¡algo genial!</b> <br/>
 👯 Estoy buscando colaborar en <b>proyectos interesantes.</b><br/>
 💬 Pregúntame acerca de <b>Full Stack</b>.<br/>
-📫 Contáctame en <a href="https://linktr.ee/alvrich"><b>@alvrichh</b></a> <br/>
- <br>
+📫 Contáctame en <a href="https://linktr.ee/alvrich"><b>@alvrichh</b></a>
 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arodmol584@g.educaand.es)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.link/44bcfa)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/álvaro-rodriguez-molina-613651202/)
-
-</span>
 
 ## Conéctate conmigo 🌏
 
@@ -39,8 +36,8 @@
 <!-- [![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)][repo] -->
 <!-- [![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white "Styled-Components")][repo] -->
 <!-- [![](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white "React Router")][repo] -->
-<!-- [![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white "Tailwind")][repo] -->
-<!-- [![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black "Webpack")][repo] -->
+[![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white "Tailwind")][repo]
+[![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black "Webpack")][repo]
 <!-- [![Three.js](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white "Three.js")][repo] -->
 ### Backend
 
