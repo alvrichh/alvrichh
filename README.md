@@ -17,6 +17,11 @@
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](enlace_de_facebook)
 [![Codepen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/alvrichh)
 
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=alvrichh&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=alvrichh&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=dark)
+
 ## Desarrollo Web 🕸️
 
 ### Frontend
