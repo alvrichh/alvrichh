@@ -20,7 +20,6 @@
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=alvrichh&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=alvrichh&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=dark)
 
 ## Desarrollo Web 🕸️
 
@@ -122,4 +121,7 @@
 [![Quora](https://img.shields.io/badge/-Quora-blue?style=for-the-badge&logo=quora&logoColor=white)](https://www.quora.com/)
 [![Coursera](https://img.shields.io/badge/-Coursera-blue?style=for-the-badge&logo=coursera&logoColor=white)](https://www.coursera.org/)
 [![Google](https://img.shields.io/badge/-Google-blue?style=for-the-badge&logo=google&logoColor=white)](https://www.google.com/)
+
+![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=dark)
+
 
