@@ -1,7 +1,9 @@
 # Mi Perfil
 
 <img align="left" height="250" src="https://github.com/alvrichh/alvrichh/assets/81918923/0208f547-41f2-448f-970a-81a1f213dc6d" alt="octocat" style="margin-right: 2rem;" />
-🔭 Actualmente estoy trabajando en <b>¡algo genial!</b> <br/>
+🔭 Actualmente estoy trabajando en:  <br/>
+<b>StartUps:</b> <br/> https://amethystwave.com (WordPress with Elementor)  <br/> https://socialtaktiv.no (WordPress with CPanel) <br/>
+<b>DropShiping:</b>  <br/> https://luxpods.store (Shopify) <br>
 👯 Estoy buscando colaborar en <b>proyectos interesantes.</b><br/>
 💬 Pregúntame acerca de <b>Full Stack</b>.<br/>
 📫 Contáctame en <a href="https://linktr.ee/alvrich"><b>@alvrichh</b></a>
