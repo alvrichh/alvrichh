@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=%C3%81lvaro%20Rodr%C3%ADguez%20Molina&fontAlign=50&fontAlignY=38&color=0:0f172a,50:1d4ed8,100:06b6d4&fontColor=ffffff&desc=Full%20Stack%20Developer%20%7C%20Integration%20%26%20Automation%20%7C%20Cloud%20%26%20APIs&descAlign=50&descAlignY=58" alt="Header banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Alvaro%20Rodriguez%20Molina&fontAlign=50&fontAlignY=38&color=gradient&customColorList=12,12,12,3&fontColor=ffffff&desc=Full%20Stack%20Developer%20-%20Integration%20Automation%20-%20Cloud%20APIs&descAlign=50&descAlignY=58" alt="Header banner" />
 </p>
 
 <h1 align="center">Hi, I'm Álvaro 👋</h1>
@@ -8,8 +8,8 @@
 <p align="center">
   <a href="https://alvrich.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0A0A0A?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="https://linktr.ee/alvrichh"><img src="https://img.shields.io/badge/Linktree-43E55E?style=for-the-badge&logo=linktree&logoColor=white" alt="Linktree" /></a>
-  <a href="https://www.linkedin.com/in/álvaro-rodriguez-molina-613651202/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:arodmol584@g.educaand.es"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+  <a href="https://www.linkedin.com/in/alvrich"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:alvrodmol@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
   <a href="https://wa.link/44bcfa"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
 </p>
 
@@ -19,7 +19,7 @@
 
 <img align="right" width="260" src="https://github.com/alvrichh/alvrichh/assets/81918923/0208f547-41f2-448f-970a-81a1f213dc6d" alt="Octocat illustration" />
 
-## About me
+### About me:
 
 I'm a **Full Stack Developer** who enjoys building complete solutions from idea to deployment.
 
@@ -119,12 +119,8 @@ My work goes beyond classic frontend/backend separation: I like connecting **int
 ## GitHub analytics
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=alvrichh&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=tokyonight" alt="Daily quote" />
   <img height="170" src="https://streak-stats.demolab.com?user=alvrichh&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-</p>
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alvrichh&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" alt="Top languages" />
 </p>
 
 <p align="center">
@@ -144,8 +140,8 @@ My work goes beyond classic frontend/backend separation: I like connecting **int
 <p>
   <a href="https://alvrich.vercel.app">Portfolio</a> •
   <a href="https://linktr.ee/alvrichh">Linktree</a> •
-  <a href="https://www.linkedin.com/in/álvaro-rodriguez-molina-613651202/">LinkedIn</a> •
-  <a href="mailto:arodmol584@g.educaand.es">Email</a> •
+  <a href="https://www.linkedin.com/in/alvrich">LinkedIn</a> •
+  <a href="mailto:alvrodmol@gmail.com">Email</a> •
   <a href="https://codepen.io/alvrichh">CodePen</a> •
   <a href="https://www.instagram.com/arsync.es/?hl=es">Instagram</a>
 </p>
