@@ -43,11 +43,12 @@ My work goes beyond classic frontend/backend separation: I like connecting **int
 - Real-time and data-driven features
 - Deployable products using modern cloud platforms
 
-## Selected projects
+## Featured projects
 
-- **[Portfolio](https://alvrich.vercel.app)** — personal site and professional showcase
-- **[Amethyst Wave](https://amethystwave.com)** — WordPress + Elementor website work
-- **[La Tienda del Break](https://www.latostadora.com/shop/latiendadelbreak/)** — original custom design storefront
+- **[Synovia Sync](https://synoviasync.com)** — Azure-based full stack platform focused on integrations, authentication flows, cloud deployment, and scalable business workflows.
+- **Butakeando** — Currently building an end-to-end product with frontend, backend, APIs, auth, and deployment, with a strong focus on product structure and real-world usability.
+- **[Portfolio](https://alvrich.vercel.app)** — Personal website and professional showcase.
+- **[La Tienda del Break](https://www.latostadora.com/shop/latiendadelbreak/)** — Custom design storefront and creative brand work.
 
 ## Core stack
 
