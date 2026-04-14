@@ -46,8 +46,9 @@ My work goes beyond classic frontend/backend separation: I like connecting **int
 ## Featured projects
 
 - **[Synovia Sync](https://synoviasync.com)** — Azure-based full stack platform focused on integrations, authentication flows, cloud deployment, and scalable business workflows.
-- **[Butakeando](https://buta-keando.vercel.app/)** — Currently building an end-to-end product with frontend, backend, APIs, auth, and deployment, with a strong focus on product structure and real-world usability.
 - **[Portfolio](https://alvrich.vercel.app)** — Personal website and professional showcase.
+- **[SpainMotorCars](https://spainmotorcars.vercel.app/)** — Front-end-only car showcase project built to display vehicles in a modern, visually appealing, and user-friendly way, without backend or payment integration.
+- **[Butakeando](https://buta-keando.vercel.app/)** — End-to-end product currently in development, featuring frontend, backend, APIs, deployment, and Stripe payment gateway integration.
 - **[La Tienda del Break](https://www.latostadora.com/shop/latiendadelbreak/)** — Custom design storefront and creative brand work.
 
 ## Core stack
