@@ -65,7 +65,7 @@ My work goes beyond classic frontend/backend separation: I like connecting **int
 
 ### Backend
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,django,spring,hibernate&perline=6" alt="Backend stack" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,flask,django,spring,hibernate&perline=7" alt="Backend stack" />
 </p>
 
 ### Cloud, deployment & DevOps
