@@ -137,7 +137,7 @@ My work goes beyond classic frontend/backend separation: I like connecting **int
   <summary><b>Extra profile flair</b></summary>
   <br />
   <p align="center">
-    <img src="https://github-profile-trophy.vercel.app/?username=alvrichh&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&margin-h=10" alt="GitHub trophies" />
+    <img src="https://raw.githubusercontent.com/alvrichh/alvrichh/main/assets/trophy.svg" alt="GitHub trophies" />
   </p>
 </details>
 
