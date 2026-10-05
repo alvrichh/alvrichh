@@ -1,0 +1,51 @@
+name: Refresh profile trophies
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/profile-trophies.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Ensure assets directory exists
+        run: mkdir -p assets
+
+      - name: Generate trophy card
+        uses: Erik-Donath/github-profile-trophy@eb0893b31de06841663555d10aa43eb7cf27952f
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          username: alvrichh
+          file: assets/trophy.svg
+          theme: tokyonight
+          max-cols: "6"
+          margin-width: "10"
+          margin-height: "10"
+          no-background: "true"
+          no-frame: "true"
+
+      - name: Commit refreshed trophy card
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/trophy.svg
+          if git diff --cached --quiet; then
+            echo "Trophy card is already up to date."
+            exit 0
+          fi
+          git commit -m "chore(profile): refresh trophy card"
+          git push
