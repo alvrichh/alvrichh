@@ -1,4 +1,5 @@
 name: Bootstrap ninja assets
+# Trigger asset unpack
 
 on:
   push:
