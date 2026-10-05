@@ -1,0 +1,40 @@
+name: Update streak stats
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/streak-stats.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate streak stats
+        uses: DenverCoder1/github-readme-streak-stats@v1
+        with:
+          options: user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true&disable_animations=true
+          path: profile/streak.svg
+
+      - name: Commit streak stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/streak.svg
+          if git diff --cached --quiet; then
+            echo "Streak card is already up to date."
+            exit 0
+          fi
+          git commit -m "chore(profile): refresh streak stats"
+          git push
