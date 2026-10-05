@@ -1,0 +1,36 @@
+name: Bootstrap ninja assets
+
+on:
+  push:
+    branches:
+      - ninja
+    paths:
+      - ".ninja-assets.tar.gz"
+      - ".github/workflows/bootstrap-ninja-assets.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  unpack:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out ninja
+        uses: actions/checkout@v4
+        with:
+          ref: ninja
+
+      - name: Unpack supplied assets
+        run: |
+          tar -xzf .ninja-assets.tar.gz
+          rm .ninja-assets.tar.gz
+          rm .github/workflows/bootstrap-ninja-assets.yml
+
+      - name: Commit unpacked assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "feat(profile): unpack ninja assets"
+          git push origin HEAD:ninja
