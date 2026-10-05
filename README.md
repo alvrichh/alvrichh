@@ -19,104 +19,81 @@
 
 <img align="right" width="260" src="https://github.com/alvrichh/alvrichh/assets/81918923/0208f547-41f2-448f-970a-81a1f213dc6d" alt="Octocat illustration" />
 
-### About me:
+### About me
 
-I'm a **Full Stack Developer** who enjoys building complete solutions from idea to deployment.
+I build products end to end: from the first screen to the API behind it, the auth that protects it, the database that feeds it and the pipeline that ships it.
 
-My work goes beyond classic frontend/backend separation: I like connecting **interfaces, APIs, authentication, databases, automation, cloud services, and deployment pipelines** into products that actually solve real problems.
+Most of my day-to-day work lives where systems meet. I connect third-party APIs, automate business processes that used to be manual, and turn them into tools people actually use in production.
 
 > [!NOTE]
-> My stack is broader than "just web development". I work across **frontend, backend, integrations, security, cloud deployment, data workflows, and internal tooling**.
+> Right now I'm building **API integrations and internal tooling on Azure**: Python backends, Azure SQL, Docker, and deployments on Render.
 
 > [!TIP]
-> I especially enjoy projects where **product thinking, automation, clean architecture, and UX** meet.
+> What I enjoy most: taking a messy manual process, understanding it properly, and turning it into a clean, automated workflow with a UI that makes sense.
 
 > [!IMPORTANT]
-> Current focus: **full stack applications, API integrations, automation, Azure-based solutions, auth flows, Dockerized environments, and production-ready deployments**.
+> Open to conversations about **full stack, integration and automation roles**, and freelance projects that need to go from idea to production.
 
-## What I usually build
+<br clear="right" />
 
-- Full stack web applications
-- API integrations and automation workflows
-- Internal tools, dashboards, and business process improvements
-- Authentication and authorization flows
-- Real-time and data-driven features
-- Deployable products using modern cloud platforms
+## What I bring
+
+- **Full stack delivery** — frontend, backend, database and deployment, owned as one piece
+- **API integrations** — connecting external services, handling auth, payloads, errors and retries
+- **Automation** — replacing repetitive business processes with reliable workflows
+- **Auth & security basics done right** — OAuth2, JWT, CORS, HTTPS, sensible data handling
+- **Internal tools & dashboards** — practical software for teams, not just demos
 
 ## Featured projects
 
-- **[Synovia Sync](https://synoviasync.com)** — Azure-based full stack platform focused on integrations, authentication flows, cloud deployment, and scalable business workflows.
-- **[Portfolio](https://alvrich.vercel.app)** — Personal website and professional showcase.
-- **[SpainMotorCars](https://spainmotorcars.vercel.app/)** — Front-end-only car showcase project built to display vehicles in a modern, visually appealing, and user-friendly way, without backend or payment integration.
-- **[Butakeando](https://buta-keando.vercel.app/)** — End-to-end product currently in development, featuring frontend, backend, APIs, deployment, and Stripe payment gateway integration.
-- **[La Tienda del Break](https://www.latostadora.com/shop/latiendadelbreak/)** — Custom design storefront and creative brand work.
+| Project | What it is | Stack |
+|---|---|---|
+| **[Synovia Sync](https://synoviasync.com)** | Azure-based platform for business integrations, auth flows and scalable workflows | Azure · APIs · Docker |
+| **[Butakeando](https://buta-keando.vercel.app/)** | End-to-end product in development with Stripe payments | Frontend · Backend · Stripe · Vercel |
+| **[SpainMotorCars](https://spainmotorcars.vercel.app/)** | Frontend car showcase focused on clean, visual UX | Frontend · Vercel |
+| **[Portfolio](https://alvrich.vercel.app)** | Personal site and professional showcase | Vercel |
+| **[La Tienda del Break](https://www.latostadora.com/shop/latiendadelbreak/)** | Custom design storefront and creative brand work | Design · Branding |
 
-## Core stack
+## Stack
 
-### Languages
+### Daily drivers
 <p>
-  <img src="https://skillicons.dev/icons?i=python,java,js,ts,php,html,css,mysql,postgresql&perline=9" alt="Languages" />
-</p>
-
-### Frontend
-<p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,angular,tailwind,bootstrap,webpack,sass,materialui&perline=8" alt="Frontend stack" />
-</p>
-
-### Backend
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,flask,django,spring,hibernate&perline=7" alt="Backend stack" />
-</p>
-
-### Cloud, deployment & DevOps
-<p>
-  <img src="https://skillicons.dev/icons?i=azure,aws,gcp,docker,kubernetes,firebase,vercel,linux&perline=8" alt="Cloud and DevOps" />
+  <img src="https://skillicons.dev/icons?i=python,flask,fastapi,ts,react,nextjs,azure,docker,postgresql,git&perline=10" alt="Daily stack" />
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white" alt="Railway" />
-  <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=000000" alt="Render" />
   <img src="https://img.shields.io/badge/Azure%20SQL-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure SQL" />
-  <img src="https://img.shields.io/badge/REST%20APIs-005571?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST APIs" />
-  <img src="https://img.shields.io/badge/API%20Integration-1F6FEB?style=for-the-badge&logo=swagger&logoColor=white" alt="API Integration" />
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=000000" alt="Render" />
+  <img src="https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white" alt="Railway" />
   <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger" />
+  <img src="https://img.shields.io/badge/OAuth2-1D4ED8?style=for-the-badge&logo=oauth&logoColor=white" alt="OAuth2" />
+  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT" />
 </p>
 
-### Databases, data & analytics
+### Also worked with
 <p>
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,redis,sqlite,pandas&perline=6" alt="Databases and data" />
+  <img src="https://skillicons.dev/icons?i=java,spring,hibernate,php,js,nodejs,express,django,angular,tailwind,bootstrap,sass,materialui&perline=13" alt="Other languages and frameworks" />
 </p>
-
+<p>
+  <img src="https://skillicons.dev/icons?i=mysql,mongodb,redis,sqlite,pandas,aws,gcp,kubernetes,firebase,vercel,linux&perline=11" alt="Other data and cloud" />
+</p>
 <p>
   <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB" />
   <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
   <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel" />
-  <img src="https://img.shields.io/badge/Real--Time%20Data%20Workflows-111827?style=for-the-badge&logo=databricks&logoColor=white" alt="Real-Time Data Workflows" />
-</p>
-
-### Authentication & security
-<p>
-  <img src="https://img.shields.io/badge/OAuth2-1D4ED8?style=for-the-badge&logo=oauth&logoColor=white" alt="OAuth2" />
-  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT" />
-  <img src="https://img.shields.io/badge/Auth%20Flows-7C3AED?style=for-the-badge&logo=auth0&logoColor=white" alt="Authentication Flows" />
-  <img src="https://img.shields.io/badge/API%20Security-DC2626?style=for-the-badge&logo=dependabot&logoColor=white" alt="API Security" />
-  <img src="https://img.shields.io/badge/CORS-0F172A?style=for-the-badge&logo=cloudflare&logoColor=white" alt="CORS" />
-  <img src="https://img.shields.io/badge/HTTPS%20%2F%20SSL-2563EB?style=for-the-badge&logo=letsencrypt&logoColor=white" alt="HTTPS and SSL" />
-  <img src="https://img.shields.io/badge/Data%20Encryption-059669?style=for-the-badge&logo=vault&logoColor=white" alt="Data Encryption" />
-  <img src="https://img.shields.io/badge/Cybersecurity-111827?style=for-the-badge&logo=fortinet&logoColor=white" alt="Cybersecurity" />
 </p>
 
 ### Tools & workflow
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,gitlab,bitbucket,postman,jenkins,jira,figma,vscode,idea,pycharm,webstorm,npm,gradle&perline=7" alt="Tools and workflow" />
+  <img src="https://skillicons.dev/icons?i=github,gitlab,bitbucket,postman,jenkins,jira,figma,vscode,idea,pycharm,webstorm,npm,gradle&perline=13" alt="Tools and workflow" />
 </p>
 
-## Broader experience
+## Beyond code
 
-- **Enterprise & business platforms:** SAP S/4HANA, CRM environments, SharePoint, Outlook, ServiceNow, Microsoft Office
-- **Documentation & analysis:** UML, ERD, flowcharts, sequence diagrams, class diagrams, use cases, activity diagrams, architecture design, wireframes, prototyping, technical documentation
-- **Ways of working:** Agile, Scrum, CI/CD, DevOps
-- **AI-adjacent workflows:** Generative AI, multimodal workflows, human-in-the-loop processes, image/video/audio annotation, prompt alignment, computer vision support, QA-oriented AI content evaluation
+- **Enterprise platforms:** SAP S/4HANA, CRM environments, SharePoint, ServiceNow, Microsoft 365
+- **Analysis & design:** UML, ERD, architecture diagrams, wireframes and technical documentation
+- **Ways of working:** Agile, Scrum, CI/CD
+- **AI workflows:** generative AI, human-in-the-loop processes, annotation and AI output evaluation
 
 ## GitHub analytics
 
