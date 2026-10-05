@@ -126,10 +126,6 @@ My work goes beyond classic frontend/backend separation: I like connecting **int
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=alvrichh&theme=tokyonight" alt="GitHub activity overview" />
-</p>
-
-<p align="center">
   <a href="https://github.com/alvrichh?tab=overview"><b>View native GitHub contributions →</b></a>
 </p>
 
