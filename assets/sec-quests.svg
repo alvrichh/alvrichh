@@ -36,12 +36,12 @@
     <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="2s" repeatCount="indefinite"/>
   </g>
 </g>
-<text class="px" x="80" y="40" font-size="22" fill="#ff2e88" opacity=".9" transform="translate(3 2)">MULTIPLAYER</text>
-<text class="px" x="80" y="40" font-size="22" fill="#ffffff">MULTIPLAYER</text>
-<text class="px" x="80" y="62" font-size="10" fill="#00f0ff">JOIN MY PARTY</text>
-<text class="px" x="975" y="40" font-size="10" fill="#ffd23f" text-anchor="end">STAGE 06</text>
+<text class="px" x="80" y="40" font-size="22" fill="#ff2e88" opacity=".9" transform="translate(3 2)">QUEST LOG</text>
+<text class="px" x="80" y="40" font-size="22" fill="#ffffff">QUEST LOG</text>
+<text class="px" x="80" y="62" font-size="10" fill="#00f0ff">MISSIONS COMPLETED &amp; IN PROGRESS</text>
+<text class="px" x="975" y="40" font-size="10" fill="#ffd23f" text-anchor="end">STAGE 03</text>
 <g class="px" font-size="10" fill="#9d8cc4"><text x="975" y="62" text-anchor="end">▶ READY</text><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1.4s" repeatCount="indefinite"/></g>
 <line x1="80" y1="72" x2="1000" y2="72" stroke="url(#neon)" stroke-width="2"/>
 <rect width="1000" height="76" fill="url(#scan)"/>
 
-</svg>                   
+</svg>
