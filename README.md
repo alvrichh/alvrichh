@@ -122,7 +122,7 @@ My work goes beyond classic frontend/backend separation: I like connecting **int
 
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=tokyonight" alt="Daily quote" />
-  <img height="170" src="https://streak-stats.demolab.com?user=alvrichh&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+  <img height="170" src="./profile/streak.svg" alt="GitHub streak" />
 </p>
 
 <p align="center">
