@@ -24,6 +24,37 @@ jobs:
       - name: Ensure assets directory exists
         run: mkdir -p assets
 
+      - name: Diagnose profile API access
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request, urllib.error
+          query = "\n  query userInfo($username: String!) {\n    user(login: $username) {\n      createdAt\n      contributionsCollection {\n        totalCommitContributions\n        restrictedContributionsCount\n        totalPullRequestReviewContributions\n      }\n      organizations(first: 1) {\n        totalCount\n      }\n      followers(first: 1) {\n        totalCount\n      }\n      openIssues: issues(states: OPEN) {\n        totalCount\n      }\n      closedIssues: issues(states: CLOSED) {\n        totalCount\n      }\n      pullRequests(first: 1) {\n        totalCount\n      }\n      repositories(first: 50, ownerAffiliations: OWNER, orderBy: {direction: DESC, field: STARGAZERS}) {\n        totalCount\n        nodes {\n          languages(first: 2, orderBy: {direction:DESC, field: SIZE}) {\n            nodes {\n              name\n            }\n          }\n          stargazers {\n            totalCount\n          }\n          createdAt\n        }\n      }\n    }\n  }\n"
+          request = urllib.request.Request(
+              "https://api.github.com/graphql",
+              data=json.dumps({"query": query, "variables": {"username": "alvrichh"}}).encode(),
+              headers={"Authorization": "Bearer " + os.environ["GH_TOKEN"], "Content-Type": "application/json"},
+          )
+          try:
+              response = urllib.request.urlopen(request, timeout=30)
+          except urllib.error.HTTPError as error:
+              response = error
+          with response:
+              print("GitHub API HTTP status:", response.status)
+              print("Rate limit remaining:", response.headers.get("x-ratelimit-remaining", "unknown"))
+              print("Rate limit reset:", response.headers.get("x-ratelimit-reset", "unknown"))
+              payload = json.load(response)
+          for error in payload.get("errors", []):
+              print("GraphQL error:", error.get("type"), error.get("path"), error.get("message"))
+          user = (payload.get("data") or {}).get("user")
+          if user:
+              print("Unavailable user fields:", [name for name, value in user.items() if value is None])
+          else:
+              print("No user data returned")
+          PY
+
       - name: Generate trophy card
         uses: Erik-Donath/github-profile-trophy@eb0893b31de06841663555d10aa43eb7cf27952f
         with:
