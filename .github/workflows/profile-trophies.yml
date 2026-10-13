@@ -10,28 +10,74 @@ on:
     paths:
       - ".github/workflows/profile-trophies.yml"
 
+concurrency:
+  group: profile-trophies-${{ github.ref }}
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Check out profile repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
       - name: Ensure assets directory exists
         run: mkdir -p assets
 
-      - name: Diagnose profile API access
+      # Keep the renderer pinned; use a public scalar for cross-repository star counts.
+      # GITHUB_TOKEN cannot read other repositories' stargazers connections.
+      - name: Check out pinned trophy generator
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          repository: Erik-Donath/github-profile-trophy
+          ref: eb0893b31de06841663555d10aa43eb7cf27952f
+          path: .trophy-generator
+          persist-credentials: false
+
+      - name: Use public repository star counts
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          
+          root = Path(".trophy-generator")
+          changes = {
+              "src/Schemas/index.ts": [
+                  ("stargazers {\n            totalCount\n          }", "stargazerCount", 2),
+              ],
+              "src/user_info.ts": [
+                  ("type Stargazers = { totalCount: number };\n", "", 1),
+                  ("stargazers: Stargazers;", "stargazerCount: number;", 1),
+                  ("node.stargazers.totalCount", "node.stargazerCount", 1),
+              ],
+          }
+          for filename, replacements in changes.items():
+              path = root / filename
+              content = path.read_text()
+              for old, new, expected in replacements:
+                  if content.count(old) != expected:
+                      raise SystemExit(f"Unexpected pinned generator source: {filename}")
+                  content = content.replace(old, new)
+              path.write_text(content)
+          print("Using public stargazerCount instead of the repository-scoped stargazers connection.")
+          PY
+
+      - name: Verify profile API access
         shell: bash
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           python3 - <<'PY'
-          import json, os, urllib.request, urllib.error
-          query = "\n  query userInfo($username: String!) {\n    user(login: $username) {\n      createdAt\n      contributionsCollection {\n        totalCommitContributions\n        restrictedContributionsCount\n        totalPullRequestReviewContributions\n      }\n      organizations(first: 1) {\n        totalCount\n      }\n      followers(first: 1) {\n        totalCount\n      }\n      openIssues: issues(states: OPEN) {\n        totalCount\n      }\n      closedIssues: issues(states: CLOSED) {\n        totalCount\n      }\n      pullRequests(first: 1) {\n        totalCount\n      }\n      repositories(first: 50, ownerAffiliations: OWNER, orderBy: {direction: DESC, field: STARGAZERS}) {\n        totalCount\n        nodes {\n          languages(first: 2, orderBy: {direction:DESC, field: SIZE}) {\n            nodes {\n              name\n            }\n          }\n          stargazers {\n            totalCount\n          }\n          createdAt\n        }\n      }\n    }\n  }\n"
+          import json, os, re, urllib.request, urllib.error
+          from pathlib import Path
+          
+          source = Path(".trophy-generator/src/Schemas/index.ts").read_text()
+          query = re.search(r"export const queryUserAll = `(.*?)`;", source, re.S).group(1)
           request = urllib.request.Request(
               "https://api.github.com/graphql",
               data=json.dumps({"query": query, "variables": {"username": "alvrichh"}}).encode(),
@@ -46,17 +92,16 @@ jobs:
               print("Rate limit remaining:", response.headers.get("x-ratelimit-remaining", "unknown"))
               print("Rate limit reset:", response.headers.get("x-ratelimit-reset", "unknown"))
               payload = json.load(response)
-          for error in payload.get("errors", []):
+          errors = payload.get("errors", [])
+          for error in errors:
               print("GraphQL error:", error.get("type"), error.get("path"), error.get("message"))
-          user = (payload.get("data") or {}).get("user")
-          if user:
-              print("Unavailable user fields:", [name for name, value in user.items() if value is None])
-          else:
-              print("No user data returned")
+          if errors or not (payload.get("data") or {}).get("user"):
+              raise SystemExit("Profile API returned incomplete data; keeping the existing trophy card.")
+          print("Profile API access verified.")
           PY
 
       - name: Generate trophy card
-        uses: Erik-Donath/github-profile-trophy@eb0893b31de06841663555d10aa43eb7cf27952f
+        uses: ./.trophy-generator
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           username: alvrichh
@@ -67,6 +112,23 @@ jobs:
           margin-height: "10"
           no-background: "true"
           no-frame: "true"
+
+      - name: Validate trophy SVG
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          
+          path = Path("assets/trophy.svg")
+          root = ET.fromstring(path.read_text())
+          if root.tag != "{http://www.w3.org/2000/svg}svg":
+              raise SystemExit("Generated file is not an SVG.")
+          labels = "".join(root.itertext())
+          if not all(label in labels for label in ("Stars", "Commits", "Followers", "Repositories")):
+              raise SystemExit("Generated SVG is missing the expected trophy panels.")
+          print(f"Validated trophy card ({path.stat().st_size} bytes).")
+          PY
 
       - name: Commit refreshed trophy card
         shell: bash
@@ -79,4 +141,5 @@ jobs:
             exit 0
           fi
           git commit -m "chore(profile): refresh trophy card"
+          git pull --rebase origin main
           git push
