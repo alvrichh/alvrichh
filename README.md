@@ -48,7 +48,6 @@ Most of my day-to-day work lives where systems meet. I connect third-party APIs,
 
 | Project | What it is | Stack |
 |---|---|---|
-| **[Synovia Sync](https://synoviasync.com)** | Azure-based platform for business integrations, auth flows and scalable workflows | Azure · APIs · Docker |
 | **[Butakeando](https://buta-keando.vercel.app/)** | End-to-end product in development with Stripe payments | Frontend · Backend · Stripe · Vercel |
 | **[SpainMotorCars](https://spainmotorcars.vercel.app/)** | Frontend car showcase focused on clean, visual UX | Frontend · Vercel |
 | **[Portfolio](https://alvrich.vercel.app)** | Personal site and professional showcase | Vercel |
