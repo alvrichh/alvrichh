@@ -46,12 +46,15 @@ Most of my day-to-day work lives where systems meet. I connect third-party APIs,
 
 ## Featured projects
 
-| Project | What it is | Stack |
-|---|---|---|
-| **[Butakeando](https://buta-keando.vercel.app/)** | End-to-end product in development with Stripe payments | Frontend · Backend · Stripe · Vercel |
-| **[SpainMotorCars](https://spainmotorcars.vercel.app/)** | Frontend car showcase focused on clean, visual UX | Frontend · Vercel |
-| **[Portfolio](https://alvrich.vercel.app)** | Personal site and professional showcase | Vercel |
-| **[La Tienda del Break](https://www.latostadora.com/shop/latiendadelbreak/)** | Custom design storefront and creative brand work | Design · Branding |
+| Project | What it is | Stack | Links |
+|---|---|---|---|
+| **MonsterBroker** | Crypto trading bot with paper trading, Claude-reviewed signals, live Binance market data, on-chain balances and a daily crypto news radar | Python · FastAPI · React · Vite · JWT · Docker · Claude API | [Repo](https://github.com/alvrichh/MonsterBroker) |
+| **Butakeando** | Full stack furniture storefront with Stripe Checkout, signed webhooks, PostgreSQL and email notifications | React · FastAPI · PostgreSQL · Stripe · Docker · Render | [Live](https://buta-keando.vercel.app) · [Repo](https://github.com/alvrichh/ButaKeando) |
+| **SpainMotorCars** | Car dealership showcase focused on clean, visual UX, with legal pages and cookie notice | HTML · SCSS · JavaScript · Webpack · Vercel | [Live](https://spainmotorcars.vercel.app) · [Repo](https://github.com/alvrichh/Spainmotorcars) |
+| **DEVOO Imports** | Premium olive oil landing and ecommerce frontend with scroll-driven animations | Vite · SCSS · Vanilla JS · GSAP | [Live](https://devooimports.vercel.app) · [Repo](https://github.com/alvrichh/DevooImports) |
+| **Portfolio** | Personal site, prerendered React in 10 languages with light/dark themes | React · TypeScript · SCSS · Vite · Vercel | [Live](https://alvrich.vercel.app) · [Repo](https://github.com/alvrichh/MyPersonalWeb) |
+| **Stratton.app** | Final degree project (DAW): full stack management app with secured REST API | Java · Spring Boot · Spring Security · Angular | [Repo](https://github.com/alvrichh/Stratton.app-FCT-DAW) |
+| **La Tienda del Break** | Custom design storefront and creative brand work | Design · Branding | [Shop](https://www.latostadora.com/shop/latiendadelbreak/) |
 
 ## Stack
 
