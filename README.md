@@ -105,11 +105,11 @@ Most of my day-to-day work lives where systems meet. I connect third-party APIs,
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/alvrichh/alvrichh/main/assets/trophy.svg" alt="GitHub trophies" />
+  <img src="./profile/activity.svg" alt="GitHub activity graph" />
 </p>
 
 <p align="center">
-  <img src="./profile/activity.svg" alt="GitHub activity graph" />
+  <img src="https://raw.githubusercontent.com/alvrichh/alvrichh/main/assets/trophy.svg" alt="GitHub trophies" />
 </p>
 
 <p align="center">
