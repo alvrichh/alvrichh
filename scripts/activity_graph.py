@@ -1,9 +1,13 @@
 """Render profile/activity.svg: daily contributions over the last 31 days.
 
+The y axis is logarithmic so a single huge day doesn't flatten the rest:
+the gap between 10 and 100 reads as clearly as the one between 100 and 1000.
+
 Fetches the contribution calendar from the GitHub GraphQL API (GH_TOKEN),
 or reads a {"YYYY-MM-DD": count} JSON file passed as the first argument.
 """
 import json
+import math
 import os
 import sys
 import urllib.request
@@ -17,6 +21,10 @@ OUT = Path("profile/activity.svg")
 W, H = 850, 300
 LEFT, RIGHT, TOP, BOTTOM = 60, 25, 55, 45
 BG, TITLE, LINE, POINT, AXIS, GRID = "#1a1b27", "#70a5fd", "#bf91f3", "#38bdae", "#a9b1d6", "#2a2e45"
+
+# Axis marks to choose from; the top of the axis is the first one >= the peak.
+TICKS = (0, 1, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000)
+MIN_GAP = 22  # px between labelled gridlines
 
 QUERY = """
 query($login: String!, $from: DateTime!, $to: DateTime!) {
@@ -41,13 +49,42 @@ def fetch(start: date, end: date) -> dict:
     return {d["date"]: d["contributionCount"] for w in weeks for d in w["contributionDays"]}
 
 
+def smooth(xy: list) -> str:
+    """SVG path through every point, monotone cubic (Fritsch-Carlson): curvy
+    like a roller coaster but never overshooting a point, so it can't dip
+    below zero or above a peak."""
+    n = len(xy)
+    dx = [xy[i + 1][0] - xy[i][0] for i in range(n - 1)]
+    slope = [(xy[i + 1][1] - xy[i][1]) / dx[i] for i in range(n - 1)]
+    tangent = [slope[0]] + [0.0 if a * b <= 0 else (a + b) / 2 for a, b in zip(slope, slope[1:])] + [slope[-1]]
+    for i, s in enumerate(slope):
+        if s == 0:
+            tangent[i] = tangent[i + 1] = 0.0
+            continue
+        a, b = tangent[i] / s, tangent[i + 1] / s
+        if a * a + b * b > 9:
+            k = 3 / math.hypot(a, b)
+            tangent[i], tangent[i + 1] = k * a * s, k * b * s
+    d = [f"M{xy[0][0]:.1f},{xy[0][1]:.1f}"]
+    for i in range(n - 1):
+        (x0, y0), (x1, y1), h = xy[i], xy[i + 1], dx[i] / 3
+        d.append(f"C{x0 + h:.1f},{y0 + tangent[i] * h:.1f} {x1 - h:.1f},{y1 - tangent[i + 1] * h:.1f} {x1:.1f},{y1:.1f}")
+    return " ".join(d)
+
+
 def render(points: list) -> str:
     peak = max(max(c for _, c in points), 1)
-    step = max(1, -(-peak // 5))  # ~5 gridlines
-    top = step * -(-peak // step)
+    top = next((t for t in TICKS if t >= peak), peak)
     pw, ph = W - LEFT - RIGHT, H - TOP - BOTTOM
     x = lambda i: LEFT + pw * i / (len(points) - 1)
-    y = lambda c: TOP + ph * (1 - c / top)
+    y = lambda c: TOP + ph * (1 - math.log1p(c) / math.log1p(top))
+
+    marks = []
+    for value in (t for t in TICKS if t <= top):
+        if not marks or y(marks[-1]) - y(value) >= MIN_GAP or value == top:
+            if marks and value == top and y(marks[-1]) - y(value) < MIN_GAP:
+                marks.pop()  # keep the top label, drop its crowded neighbour
+            marks.append(value)
 
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Contribution activity, last {DAYS} days">',
@@ -57,7 +94,7 @@ def render(points: list) -> str:
         f'<text x="{W / 2}" y="32" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="20" font-weight="600" fill="{TITLE}">Álvaro\'s Contribution Graph</text>',
     ]
     font = 'font-family="Segoe UI, Ubuntu, sans-serif" font-size="11"'
-    for value in range(0, top + 1, step):
+    for value in marks:
         parts.append(f'<line x1="{LEFT}" x2="{W - RIGHT}" y1="{y(value):.1f}" y2="{y(value):.1f}" stroke="{GRID}"/>')
         parts.append(f'<text x="{LEFT - 10}" y="{y(value) + 4:.1f}" text-anchor="end" {font} fill="{AXIS}">{value}</text>')
     for i, (day, _) in enumerate(points):
@@ -66,9 +103,9 @@ def render(points: list) -> str:
     parts.append(f'<text x="{W / 2}" y="{H - 8}" text-anchor="middle" {font} fill="{AXIS}">Days</text>')
     parts.append(f'<text x="16" y="{TOP + ph / 2}" text-anchor="middle" {font} fill="{AXIS}" transform="rotate(-90 16 {TOP + ph / 2})">Contributions</text>')
 
-    line = " ".join(f"{x(i):.1f},{y(c):.1f}" for i, (_, c) in enumerate(points))
-    parts.append(f'<polygon points="{LEFT},{y(0):.1f} {line} {W - RIGHT},{y(0):.1f}" fill="url(#fill)"/>')
-    parts.append(f'<polyline points="{line}" fill="none" stroke="{LINE}" stroke-width="2.5" stroke-linejoin="round"/>')
+    curve = smooth([(x(i), y(c)) for i, (_, c) in enumerate(points)])
+    parts.append(f'<path d="M{LEFT},{y(0):.1f} L{curve[1:]} L{W - RIGHT},{y(0):.1f} Z" fill="url(#fill)"/>')
+    parts.append(f'<path d="{curve}" fill="none" stroke="{LINE}" stroke-width="2.5" stroke-linejoin="round"/>')
     for i, (day, c) in enumerate(points):
         parts.append(f'<circle cx="{x(i):.1f}" cy="{y(c):.1f}" r="3.5" fill="{POINT}"><title>{day}: {c}</title></circle>')
     parts.append("</svg>")
