@@ -5,15 +5,15 @@
 <line x1="60" x2="825" y1="255.0" y2="255.0" stroke="#2a2e45"/>
 <text x="50" y="259.0" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">0</text>
 <line x1="60" x2="825" y1="215.0" y2="215.0" stroke="#2a2e45"/>
-<text x="50" y="219.0" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">125</text>
+<text x="50" y="219.0" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">139</text>
 <line x1="60" x2="825" y1="175.0" y2="175.0" stroke="#2a2e45"/>
-<text x="50" y="179.0" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">250</text>
+<text x="50" y="179.0" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">278</text>
 <line x1="60" x2="825" y1="135.0" y2="135.0" stroke="#2a2e45"/>
-<text x="50" y="139.0" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">375</text>
+<text x="50" y="139.0" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">417</text>
 <line x1="60" x2="825" y1="95.0" y2="95.0" stroke="#2a2e45"/>
-<text x="50" y="99.0" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">500</text>
+<text x="50" y="99.0" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">556</text>
 <line x1="60" x2="825" y1="55.0" y2="55.0" stroke="#2a2e45"/>
-<text x="50" y="59.0" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">625</text>
+<text x="50" y="59.0" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">695</text>
 <text x="60.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">15</text>
 <text x="111.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">17</text>
 <text x="162.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">19</text>
@@ -32,17 +32,17 @@
 <text x="825.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">15</text>
 <text x="425.0" y="292" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">Days</text>
 <text x="16" y="155.0" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6" transform="rotate(-90 16 155.0)">Contributions</text>
-<polygon points="60,255.0 60.0,245.1 85.5,252.1 111.0,253.4 136.5,254.0 162.0,254.7 187.5,254.7 213.0,254.7 238.5,244.4 264.0,249.6 289.5,254.7 315.0,254.7 340.5,254.4 366.0,254.7 391.5,254.4 417.0,254.7 442.5,254.7 468.0,252.8 493.5,254.0 519.0,252.8 544.5,245.7 570.0,249.9 595.5,254.4 621.0,249.9 646.5,254.7 672.0,254.7 697.5,254.7 723.0,254.7 748.5,254.7 774.0,243.5 799.5,55.0 825.0,255.0 825,255.0" fill="url(#fill)"/>
-<polyline points="60.0,245.1 85.5,252.1 111.0,253.4 136.5,254.0 162.0,254.7 187.5,254.7 213.0,254.7 238.5,244.4 264.0,249.6 289.5,254.7 315.0,254.7 340.5,254.4 366.0,254.7 391.5,254.4 417.0,254.7 442.5,254.7 468.0,252.8 493.5,254.0 519.0,252.8 544.5,245.7 570.0,249.9 595.5,254.4 621.0,249.9 646.5,254.7 672.0,254.7 697.5,254.7 723.0,254.7 748.5,254.7 774.0,243.5 799.5,55.0 825.0,255.0" fill="none" stroke="#bf91f3" stroke-width="2.5" stroke-linejoin="round"/>
-<circle cx="60.0" cy="245.1" r="3.5" fill="#38bdae"><title>2026-09-15: 31</title></circle>
-<circle cx="85.5" cy="252.1" r="3.5" fill="#38bdae"><title>2026-09-16: 9</title></circle>
-<circle cx="111.0" cy="253.4" r="3.5" fill="#38bdae"><title>2026-09-17: 5</title></circle>
-<circle cx="136.5" cy="254.0" r="3.5" fill="#38bdae"><title>2026-09-18: 3</title></circle>
+<polygon points="60,255.0 60.0,246.1 85.5,252.4 111.0,253.6 136.5,254.1 162.0,254.7 187.5,254.7 213.0,254.7 238.5,245.5 264.0,250.1 289.5,254.7 315.0,254.7 340.5,254.4 366.0,254.7 391.5,254.4 417.0,254.7 442.5,254.7 468.0,253.0 493.5,254.1 519.0,253.0 544.5,246.7 570.0,250.4 595.5,254.4 621.0,250.4 646.5,254.7 672.0,254.7 697.5,254.7 723.0,254.7 748.5,254.7 774.0,244.6 799.5,55.6 825.0,251.0 825,255.0" fill="url(#fill)"/>
+<polyline points="60.0,246.1 85.5,252.4 111.0,253.6 136.5,254.1 162.0,254.7 187.5,254.7 213.0,254.7 238.5,245.5 264.0,250.1 289.5,254.7 315.0,254.7 340.5,254.4 366.0,254.7 391.5,254.4 417.0,254.7 442.5,254.7 468.0,253.0 493.5,254.1 519.0,253.0 544.5,246.7 570.0,250.4 595.5,254.4 621.0,250.4 646.5,254.7 672.0,254.7 697.5,254.7 723.0,254.7 748.5,254.7 774.0,244.6 799.5,55.6 825.0,251.0" fill="none" stroke="#bf91f3" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="60.0" cy="246.1" r="3.5" fill="#38bdae"><title>2026-09-15: 31</title></circle>
+<circle cx="85.5" cy="252.4" r="3.5" fill="#38bdae"><title>2026-09-16: 9</title></circle>
+<circle cx="111.0" cy="253.6" r="3.5" fill="#38bdae"><title>2026-09-17: 5</title></circle>
+<circle cx="136.5" cy="254.1" r="3.5" fill="#38bdae"><title>2026-09-18: 3</title></circle>
 <circle cx="162.0" cy="254.7" r="3.5" fill="#38bdae"><title>2026-09-19: 1</title></circle>
 <circle cx="187.5" cy="254.7" r="3.5" fill="#38bdae"><title>2026-09-20: 1</title></circle>
 <circle cx="213.0" cy="254.7" r="3.5" fill="#38bdae"><title>2026-09-21: 1</title></circle>
-<circle cx="238.5" cy="244.4" r="3.5" fill="#38bdae"><title>2026-09-22: 33</title></circle>
-<circle cx="264.0" cy="249.6" r="3.5" fill="#38bdae"><title>2026-09-23: 17</title></circle>
+<circle cx="238.5" cy="245.5" r="3.5" fill="#38bdae"><title>2026-09-22: 33</title></circle>
+<circle cx="264.0" cy="250.1" r="3.5" fill="#38bdae"><title>2026-09-23: 17</title></circle>
 <circle cx="289.5" cy="254.7" r="3.5" fill="#38bdae"><title>2026-09-24: 1</title></circle>
 <circle cx="315.0" cy="254.7" r="3.5" fill="#38bdae"><title>2026-09-25: 1</title></circle>
 <circle cx="340.5" cy="254.4" r="3.5" fill="#38bdae"><title>2026-09-26: 2</title></circle>
@@ -50,19 +50,19 @@
 <circle cx="391.5" cy="254.4" r="3.5" fill="#38bdae"><title>2026-09-28: 2</title></circle>
 <circle cx="417.0" cy="254.7" r="3.5" fill="#38bdae"><title>2026-09-29: 1</title></circle>
 <circle cx="442.5" cy="254.7" r="3.5" fill="#38bdae"><title>2026-09-30: 1</title></circle>
-<circle cx="468.0" cy="252.8" r="3.5" fill="#38bdae"><title>2026-10-01: 7</title></circle>
-<circle cx="493.5" cy="254.0" r="3.5" fill="#38bdae"><title>2026-10-02: 3</title></circle>
-<circle cx="519.0" cy="252.8" r="3.5" fill="#38bdae"><title>2026-10-03: 7</title></circle>
-<circle cx="544.5" cy="245.7" r="3.5" fill="#38bdae"><title>2026-10-04: 29</title></circle>
-<circle cx="570.0" cy="249.9" r="3.5" fill="#38bdae"><title>2026-10-05: 16</title></circle>
+<circle cx="468.0" cy="253.0" r="3.5" fill="#38bdae"><title>2026-10-01: 7</title></circle>
+<circle cx="493.5" cy="254.1" r="3.5" fill="#38bdae"><title>2026-10-02: 3</title></circle>
+<circle cx="519.0" cy="253.0" r="3.5" fill="#38bdae"><title>2026-10-03: 7</title></circle>
+<circle cx="544.5" cy="246.7" r="3.5" fill="#38bdae"><title>2026-10-04: 29</title></circle>
+<circle cx="570.0" cy="250.4" r="3.5" fill="#38bdae"><title>2026-10-05: 16</title></circle>
 <circle cx="595.5" cy="254.4" r="3.5" fill="#38bdae"><title>2026-10-06: 2</title></circle>
-<circle cx="621.0" cy="249.9" r="3.5" fill="#38bdae"><title>2026-10-07: 16</title></circle>
+<circle cx="621.0" cy="250.4" r="3.5" fill="#38bdae"><title>2026-10-07: 16</title></circle>
 <circle cx="646.5" cy="254.7" r="3.5" fill="#38bdae"><title>2026-10-08: 1</title></circle>
 <circle cx="672.0" cy="254.7" r="3.5" fill="#38bdae"><title>2026-10-09: 1</title></circle>
 <circle cx="697.5" cy="254.7" r="3.5" fill="#38bdae"><title>2026-10-10: 1</title></circle>
 <circle cx="723.0" cy="254.7" r="3.5" fill="#38bdae"><title>2026-10-11: 1</title></circle>
 <circle cx="748.5" cy="254.7" r="3.5" fill="#38bdae"><title>2026-10-12: 1</title></circle>
-<circle cx="774.0" cy="243.5" r="3.5" fill="#38bdae"><title>2026-10-13: 36</title></circle>
-<circle cx="799.5" cy="55.0" r="3.5" fill="#38bdae"><title>2026-10-14: 625</title></circle>
-<circle cx="825.0" cy="255.0" r="3.5" fill="#38bdae"><title>2026-10-15: 0</title></circle>
+<circle cx="774.0" cy="244.6" r="3.5" fill="#38bdae"><title>2026-10-13: 36</title></circle>
+<circle cx="799.5" cy="55.6" r="3.5" fill="#38bdae"><title>2026-10-14: 693</title></circle>
+<circle cx="825.0" cy="251.0" r="3.5" fill="#38bdae"><title>2026-10-15: 14</title></circle>
 </svg>
