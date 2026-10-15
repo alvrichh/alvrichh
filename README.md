@@ -105,16 +105,16 @@ Most of my day-to-day work lives where systems meet. I connect third-party APIs,
 </p>
 
 <p align="center">
-  <a href="https://github.com/alvrichh?tab=overview"><b>View native GitHub contributions →</b></a>
+  <img src="https://raw.githubusercontent.com/alvrichh/alvrichh/main/assets/trophy.svg" alt="GitHub trophies" />
 </p>
 
-<details>
-  <summary><b>Extra profile flair</b></summary>
-  <br />
-  <p align="center">
-    <img src="https://raw.githubusercontent.com/alvrichh/alvrichh/main/assets/trophy.svg" alt="GitHub trophies" />
-  </p>
-</details>
+<p align="center">
+  <img src="./profile/activity.svg" alt="GitHub activity graph" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/alvrichh?tab=overview"><b>View native GitHub contributions →</b></a>
+</p>
 
 ## Let's connect
 
