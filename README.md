@@ -44,6 +44,10 @@ Most of my day-to-day work lives where systems meet. I connect third-party APIs,
 - **Auth & security basics done right** — OAuth2, JWT, CORS, HTTPS, sensible data handling
 - **Internal tools & dashboards** — practical software for teams, not just demos
 
+<p align="center">
+  <img src="./assets/section-divider.svg" width="100%" alt="" />
+</p>
+
 ## Featured projects
 
 | Project | What it is | Stack | Repo |
@@ -55,6 +59,10 @@ Most of my day-to-day work lives where systems meet. I connect third-party APIs,
 | **[Portfolio](https://alvrich.vercel.app)** | Personal site, prerendered React in 10 languages with light/dark themes | React · TypeScript · SCSS · Vite · Vercel | [Repo](https://github.com/alvrichh/MyPersonalWeb) |
 | **[Stratton.app](https://github.com/alvrichh/Stratton.app-FCT-DAW)** | Final degree project (DAW): full stack management app with secured REST API | Java · Spring Boot · Spring Security · Angular | [Repo](https://github.com/alvrichh/Stratton.app-FCT-DAW) |
 | **[La Tienda del Break](https://www.latostadora.com/shop/latiendadelbreak/)** | Custom design storefront and creative brand work | Design · Branding | — |
+
+<p align="center">
+  <img src="./assets/section-divider.svg" width="100%" alt="" />
+</p>
 
 ## Stack
 
@@ -96,6 +104,10 @@ Most of my day-to-day work lives where systems meet. I connect third-party APIs,
 - **Analysis & design:** UML, ERD, architecture diagrams, wireframes and technical documentation
 - **Ways of working:** Agile, Scrum, CI/CD
 - **AI workflows:** generative AI, human-in-the-loop processes, annotation and AI output evaluation
+
+<p align="center">
+  <img src="./assets/section-divider.svg" width="100%" alt="" />
+</p>
 
 ## GitHub analytics
 
