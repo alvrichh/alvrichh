@@ -108,6 +108,16 @@ Most of my day-to-day work lives where systems meet. I connect third-party APIs,
   <img src="./profile/activity.svg" alt="GitHub activity graph" />
 </p>
 
+### Contributions
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alvrichh/alvrichh/output/pacman-contribution-graph-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alvrichh/alvrichh/output/pacman-contribution-graph.svg" />
+    <img alt="Pac-Man eating my GitHub contributions" src="https://raw.githubusercontent.com/alvrichh/alvrichh/output/pacman-contribution-graph.svg" />
+  </picture>
+</p>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/alvrichh/alvrichh/main/assets/trophy.svg" alt="GitHub trophies" />
 </p>
