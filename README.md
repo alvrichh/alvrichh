@@ -17,7 +17,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&vCenter=true&width=900&lines=Building+end-to-end+products+with+frontend%2C+backend+and+cloud;Turning+integrations+and+automation+into+real+business+solutions;Working+with+APIs%2C+auth%2C+data+flows%2C+Docker+and+modern+deployment;Azure+%7C+Vercel+%7C+Railway+%7C+Render+%7C+Real-time+workflows" alt="Typing animation" />
 </p>
 
-<img align="right" width="260" src="./assets/octocat-tilt.svg" alt="Octocat illustration" />
+<img align="right" width="260" src="https://github.com/alvrichh/alvrichh/assets/81918923/0208f547-41f2-448f-970a-81a1f213dc6d" alt="Octocat illustration" />
 
 ### About me
 
