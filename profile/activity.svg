@@ -16,55 +16,55 @@
 <text x="50" y="92.0" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">100</text>
 <line x1="60" x2="825" y1="55.0" y2="55.0" stroke="#2a2e45"/>
 <text x="50" y="59.0" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">250</text>
-<text x="60.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">15</text>
-<text x="111.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">17</text>
-<text x="162.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">19</text>
-<text x="213.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">21</text>
-<text x="264.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">23</text>
-<text x="315.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">25</text>
-<text x="366.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">27</text>
-<text x="417.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">29</text>
-<text x="468.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">31</text>
-<text x="519.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">2</text>
-<text x="570.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">4</text>
-<text x="621.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">6</text>
-<text x="672.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">8</text>
-<text x="723.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">10</text>
-<text x="774.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">12</text>
-<text x="825.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">14</text>
+<text x="60.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">16</text>
+<text x="111.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">18</text>
+<text x="162.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">20</text>
+<text x="213.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">22</text>
+<text x="264.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">24</text>
+<text x="315.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">26</text>
+<text x="366.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">28</text>
+<text x="417.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">30</text>
+<text x="468.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">1</text>
+<text x="519.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">3</text>
+<text x="570.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">5</text>
+<text x="621.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">7</text>
+<text x="672.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">9</text>
+<text x="723.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">11</text>
+<text x="774.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">13</text>
+<text x="825.0" y="275" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">15</text>
 <text x="425.0" y="292" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6">Days</text>
 <text x="16" y="155.0" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#a9b1d6" transform="rotate(-90 16 155.0)">Contributions</text>
-<path d="M60,255.0 L60.0,99.7 C68.5,123.7 77.0,171.7 85.5,171.7 C94.0,171.7 102.5,133.7 111.0,117.2 C119.5,100.7 128.0,73.6 136.5,72.7 C145.0,71.8 153.5,71.8 162.0,71.8 C170.5,71.7 179.0,70.2 187.5,70.2 C196.0,70.2 204.5,130.7 213.0,130.7 C221.5,130.7 230.0,113.8 238.5,112.0 C247.0,110.1 255.5,110.8 264.0,110.0 C272.5,109.1 281.0,102.8 289.5,102.8 C298.0,102.8 306.5,111.3 315.0,111.3 C323.5,111.3 332.0,92.5 340.5,92.5 C349.0,92.5 357.5,109.3 366.0,109.3 C374.5,109.3 383.0,69.3 391.5,69.3 C400.0,69.3 408.5,88.2 417.0,99.7 C425.5,111.2 434.0,137.7 442.5,138.5 C451.0,139.3 459.5,138.7 468.0,140.0 C476.5,141.2 485.0,204.8 493.5,204.8 C502.0,204.8 510.5,204.8 519.0,204.8 C527.5,204.8 536.0,166.5 544.5,165.1 C553.0,163.6 561.5,164.7 570.0,162.2 C578.5,159.6 587.0,89.4 595.5,89.4 C604.0,89.4 612.5,132.2 621.0,140.0 C629.5,147.7 638.0,145.1 646.5,148.4 C655.0,151.7 663.5,159.0 672.0,165.1 C680.5,171.1 689.0,184.6 697.5,184.6 C706.0,184.6 714.5,184.6 723.0,171.7 C731.5,158.7 740.0,89.8 748.5,89.8 C757.0,89.8 765.5,101.2 774.0,101.2 C782.5,101.2 791.0,97.3 799.5,97.3 C808.0,97.3 816.5,202.4 825.0,255.0 L825,255.0 Z" fill="url(#fill)"/>
-<path d="M60.0,99.7 C68.5,123.7 77.0,171.7 85.5,171.7 C94.0,171.7 102.5,133.7 111.0,117.2 C119.5,100.7 128.0,73.6 136.5,72.7 C145.0,71.8 153.5,71.8 162.0,71.8 C170.5,71.7 179.0,70.2 187.5,70.2 C196.0,70.2 204.5,130.7 213.0,130.7 C221.5,130.7 230.0,113.8 238.5,112.0 C247.0,110.1 255.5,110.8 264.0,110.0 C272.5,109.1 281.0,102.8 289.5,102.8 C298.0,102.8 306.5,111.3 315.0,111.3 C323.5,111.3 332.0,92.5 340.5,92.5 C349.0,92.5 357.5,109.3 366.0,109.3 C374.5,109.3 383.0,69.3 391.5,69.3 C400.0,69.3 408.5,88.2 417.0,99.7 C425.5,111.2 434.0,137.7 442.5,138.5 C451.0,139.3 459.5,138.7 468.0,140.0 C476.5,141.2 485.0,204.8 493.5,204.8 C502.0,204.8 510.5,204.8 519.0,204.8 C527.5,204.8 536.0,166.5 544.5,165.1 C553.0,163.6 561.5,164.7 570.0,162.2 C578.5,159.6 587.0,89.4 595.5,89.4 C604.0,89.4 612.5,132.2 621.0,140.0 C629.5,147.7 638.0,145.1 646.5,148.4 C655.0,151.7 663.5,159.0 672.0,165.1 C680.5,171.1 689.0,184.6 697.5,184.6 C706.0,184.6 714.5,184.6 723.0,171.7 C731.5,158.7 740.0,89.8 748.5,89.8 C757.0,89.8 765.5,101.2 774.0,101.2 C782.5,101.2 791.0,97.3 799.5,97.3 C808.0,97.3 816.5,202.4 825.0,255.0" fill="none" stroke="#bf91f3" stroke-width="2.5" stroke-linejoin="round"/>
-<circle cx="60.0" cy="99.7" r="3.5" fill="#38bdae"><title>2026-10-15: 72</title></circle>
-<circle cx="85.5" cy="171.7" r="3.5" fill="#38bdae"><title>2026-10-16: 9</title></circle>
-<circle cx="111.0" cy="117.2" r="3.5" fill="#38bdae"><title>2026-10-17: 44</title></circle>
-<circle cx="136.5" cy="72.7" r="3.5" fill="#38bdae"><title>2026-10-18: 153</title></circle>
-<circle cx="162.0" cy="71.8" r="3.5" fill="#38bdae"><title>2026-10-19: 157</title></circle>
-<circle cx="187.5" cy="70.2" r="3.5" fill="#38bdae"><title>2026-10-20: 164</title></circle>
-<circle cx="213.0" cy="130.7" r="3.5" fill="#38bdae"><title>2026-10-21: 30</title></circle>
-<circle cx="238.5" cy="112.0" r="3.5" fill="#38bdae"><title>2026-10-22: 51</title></circle>
-<circle cx="264.0" cy="110.0" r="3.5" fill="#38bdae"><title>2026-10-23: 54</title></circle>
-<circle cx="289.5" cy="102.8" r="3.5" fill="#38bdae"><title>2026-10-24: 66</title></circle>
-<circle cx="315.0" cy="111.3" r="3.5" fill="#38bdae"><title>2026-10-25: 52</title></circle>
-<circle cx="340.5" cy="92.5" r="3.5" fill="#38bdae"><title>2026-10-26: 88</title></circle>
-<circle cx="366.0" cy="109.3" r="3.5" fill="#38bdae"><title>2026-10-27: 55</title></circle>
-<circle cx="391.5" cy="69.3" r="3.5" fill="#38bdae"><title>2026-10-28: 168</title></circle>
-<circle cx="417.0" cy="99.7" r="3.5" fill="#38bdae"><title>2026-10-29: 72</title></circle>
-<circle cx="442.5" cy="138.5" r="3.5" fill="#38bdae"><title>2026-10-30: 24</title></circle>
-<circle cx="468.0" cy="140.0" r="3.5" fill="#38bdae"><title>2026-10-31: 23</title></circle>
-<circle cx="493.5" cy="204.8" r="3.5" fill="#38bdae"><title>2026-11-01: 3</title></circle>
-<circle cx="519.0" cy="204.8" r="3.5" fill="#38bdae"><title>2026-11-02: 3</title></circle>
-<circle cx="544.5" cy="165.1" r="3.5" fill="#38bdae"><title>2026-11-03: 11</title></circle>
-<circle cx="570.0" cy="162.2" r="3.5" fill="#38bdae"><title>2026-11-04: 12</title></circle>
-<circle cx="595.5" cy="89.4" r="3.5" fill="#38bdae"><title>2026-11-05: 96</title></circle>
-<circle cx="621.0" cy="140.0" r="3.5" fill="#38bdae"><title>2026-11-06: 23</title></circle>
-<circle cx="646.5" cy="148.4" r="3.5" fill="#38bdae"><title>2026-11-07: 18</title></circle>
-<circle cx="672.0" cy="165.1" r="3.5" fill="#38bdae"><title>2026-11-08: 11</title></circle>
-<circle cx="697.5" cy="184.6" r="3.5" fill="#38bdae"><title>2026-11-09: 6</title></circle>
-<circle cx="723.0" cy="171.7" r="3.5" fill="#38bdae"><title>2026-11-10: 9</title></circle>
-<circle cx="748.5" cy="89.8" r="3.5" fill="#38bdae"><title>2026-11-11: 95</title></circle>
-<circle cx="774.0" cy="101.2" r="3.5" fill="#38bdae"><title>2026-11-12: 69</title></circle>
-<circle cx="799.5" cy="97.3" r="3.5" fill="#38bdae"><title>2026-11-13: 77</title></circle>
-<circle cx="825.0" cy="255.0" r="3.5" fill="#38bdae"><title>2026-11-14: 0</title></circle>
+<path d="M60,255.0 L60.0,171.7 C68.5,153.5 77.0,133.7 85.5,117.2 C94.0,100.7 102.5,73.6 111.0,72.7 C119.5,71.8 128.0,71.8 136.5,71.8 C145.0,71.7 153.5,70.2 162.0,70.2 C170.5,70.2 179.0,130.7 187.5,130.7 C196.0,130.7 204.5,113.8 213.0,112.0 C221.5,110.1 230.0,110.8 238.5,110.0 C247.0,109.1 255.5,102.8 264.0,102.8 C272.5,102.8 281.0,111.3 289.5,111.3 C298.0,111.3 306.5,92.5 315.0,92.5 C323.5,92.5 332.0,109.3 340.5,109.3 C349.0,109.3 357.5,69.3 366.0,69.3 C374.5,69.3 383.0,88.2 391.5,99.7 C400.0,111.2 408.5,137.7 417.0,138.5 C425.5,139.3 434.0,138.7 442.5,140.0 C451.0,141.2 459.5,204.8 468.0,204.8 C476.5,204.8 485.0,204.8 493.5,204.8 C502.0,204.8 510.5,166.5 519.0,165.1 C527.5,163.6 536.0,164.7 544.5,162.2 C553.0,159.6 561.5,89.4 570.0,89.4 C578.5,89.4 587.0,132.2 595.5,140.0 C604.0,147.7 612.5,145.1 621.0,148.4 C629.5,151.7 638.0,159.0 646.5,165.1 C655.0,171.1 663.5,184.6 672.0,184.6 C680.5,184.6 689.0,184.6 697.5,171.7 C706.0,158.7 714.5,89.8 723.0,89.8 C731.5,89.8 740.0,101.2 748.5,101.2 C757.0,101.2 765.5,97.3 774.0,97.3 C782.5,97.3 791.0,189.0 799.5,215.2 C808.0,241.5 816.5,241.7 825.0,255.0 L825,255.0 Z" fill="url(#fill)"/>
+<path d="M60.0,171.7 C68.5,153.5 77.0,133.7 85.5,117.2 C94.0,100.7 102.5,73.6 111.0,72.7 C119.5,71.8 128.0,71.8 136.5,71.8 C145.0,71.7 153.5,70.2 162.0,70.2 C170.5,70.2 179.0,130.7 187.5,130.7 C196.0,130.7 204.5,113.8 213.0,112.0 C221.5,110.1 230.0,110.8 238.5,110.0 C247.0,109.1 255.5,102.8 264.0,102.8 C272.5,102.8 281.0,111.3 289.5,111.3 C298.0,111.3 306.5,92.5 315.0,92.5 C323.5,92.5 332.0,109.3 340.5,109.3 C349.0,109.3 357.5,69.3 366.0,69.3 C374.5,69.3 383.0,88.2 391.5,99.7 C400.0,111.2 408.5,137.7 417.0,138.5 C425.5,139.3 434.0,138.7 442.5,140.0 C451.0,141.2 459.5,204.8 468.0,204.8 C476.5,204.8 485.0,204.8 493.5,204.8 C502.0,204.8 510.5,166.5 519.0,165.1 C527.5,163.6 536.0,164.7 544.5,162.2 C553.0,159.6 561.5,89.4 570.0,89.4 C578.5,89.4 587.0,132.2 595.5,140.0 C604.0,147.7 612.5,145.1 621.0,148.4 C629.5,151.7 638.0,159.0 646.5,165.1 C655.0,171.1 663.5,184.6 672.0,184.6 C680.5,184.6 689.0,184.6 697.5,171.7 C706.0,158.7 714.5,89.8 723.0,89.8 C731.5,89.8 740.0,101.2 748.5,101.2 C757.0,101.2 765.5,97.3 774.0,97.3 C782.5,97.3 791.0,189.0 799.5,215.2 C808.0,241.5 816.5,241.7 825.0,255.0" fill="none" stroke="#bf91f3" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="60.0" cy="171.7" r="3.5" fill="#38bdae"><title>2026-10-16: 9</title></circle>
+<circle cx="85.5" cy="117.2" r="3.5" fill="#38bdae"><title>2026-10-17: 44</title></circle>
+<circle cx="111.0" cy="72.7" r="3.5" fill="#38bdae"><title>2026-10-18: 153</title></circle>
+<circle cx="136.5" cy="71.8" r="3.5" fill="#38bdae"><title>2026-10-19: 157</title></circle>
+<circle cx="162.0" cy="70.2" r="3.5" fill="#38bdae"><title>2026-10-20: 164</title></circle>
+<circle cx="187.5" cy="130.7" r="3.5" fill="#38bdae"><title>2026-10-21: 30</title></circle>
+<circle cx="213.0" cy="112.0" r="3.5" fill="#38bdae"><title>2026-10-22: 51</title></circle>
+<circle cx="238.5" cy="110.0" r="3.5" fill="#38bdae"><title>2026-10-23: 54</title></circle>
+<circle cx="264.0" cy="102.8" r="3.5" fill="#38bdae"><title>2026-10-24: 66</title></circle>
+<circle cx="289.5" cy="111.3" r="3.5" fill="#38bdae"><title>2026-10-25: 52</title></circle>
+<circle cx="315.0" cy="92.5" r="3.5" fill="#38bdae"><title>2026-10-26: 88</title></circle>
+<circle cx="340.5" cy="109.3" r="3.5" fill="#38bdae"><title>2026-10-27: 55</title></circle>
+<circle cx="366.0" cy="69.3" r="3.5" fill="#38bdae"><title>2026-10-28: 168</title></circle>
+<circle cx="391.5" cy="99.7" r="3.5" fill="#38bdae"><title>2026-10-29: 72</title></circle>
+<circle cx="417.0" cy="138.5" r="3.5" fill="#38bdae"><title>2026-10-30: 24</title></circle>
+<circle cx="442.5" cy="140.0" r="3.5" fill="#38bdae"><title>2026-10-31: 23</title></circle>
+<circle cx="468.0" cy="204.8" r="3.5" fill="#38bdae"><title>2026-11-01: 3</title></circle>
+<circle cx="493.5" cy="204.8" r="3.5" fill="#38bdae"><title>2026-11-02: 3</title></circle>
+<circle cx="519.0" cy="165.1" r="3.5" fill="#38bdae"><title>2026-11-03: 11</title></circle>
+<circle cx="544.5" cy="162.2" r="3.5" fill="#38bdae"><title>2026-11-04: 12</title></circle>
+<circle cx="570.0" cy="89.4" r="3.5" fill="#38bdae"><title>2026-11-05: 96</title></circle>
+<circle cx="595.5" cy="140.0" r="3.5" fill="#38bdae"><title>2026-11-06: 23</title></circle>
+<circle cx="621.0" cy="148.4" r="3.5" fill="#38bdae"><title>2026-11-07: 18</title></circle>
+<circle cx="646.5" cy="165.1" r="3.5" fill="#38bdae"><title>2026-11-08: 11</title></circle>
+<circle cx="672.0" cy="184.6" r="3.5" fill="#38bdae"><title>2026-11-09: 6</title></circle>
+<circle cx="697.5" cy="171.7" r="3.5" fill="#38bdae"><title>2026-11-10: 9</title></circle>
+<circle cx="723.0" cy="89.8" r="3.5" fill="#38bdae"><title>2026-11-11: 95</title></circle>
+<circle cx="748.5" cy="101.2" r="3.5" fill="#38bdae"><title>2026-11-12: 69</title></circle>
+<circle cx="774.0" cy="97.3" r="3.5" fill="#38bdae"><title>2026-11-13: 77</title></circle>
+<circle cx="799.5" cy="215.2" r="3.5" fill="#38bdae"><title>2026-11-14: 2</title></circle>
+<circle cx="825.0" cy="255.0" r="3.5" fill="#38bdae"><title>2026-11-15: 0</title></circle>
 </svg>
