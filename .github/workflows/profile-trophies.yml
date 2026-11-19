@@ -24,7 +24,7 @@ jobs:
 
     steps:
       - name: Check out profile repository
-        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
 
       - name: Ensure assets directory exists
         run: mkdir -p assets
@@ -32,7 +32,7 @@ jobs:
       # Keep the renderer pinned; use a public scalar for cross-repository star counts.
       # GITHUB_TOKEN cannot read other repositories' stargazers connections.
       - name: Check out pinned trophy generator
-        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
           repository: Erik-Donath/github-profile-trophy
           ref: eb0893b31de06841663555d10aa43eb7cf27952f
