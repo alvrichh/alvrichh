@@ -54,7 +54,7 @@ Most of my day-to-day work lives where systems meet. I connect third-party APIs,
 |---|---|---|---|
 | **[MonsterBroker](https://monsterbroker.onrender.com/)** | Crypto trading bot with paper trading, Claude-reviewed signals, live Binance market data, on-chain balances and a daily crypto news radar | Python · FastAPI · React · Vite · JWT · Docker · Claude API | [Repo](https://github.com/alvrichh/MonsterBroker) |
 | **[Butakeando](https://buta-keando.vercel.app)** | Full stack furniture storefront with Stripe Checkout, signed webhooks, PostgreSQL and email notifications | React · FastAPI · PostgreSQL · Stripe · Docker · Render | [Repo](https://github.com/alvrichh/ButaKeando) |
-| **[SpainMotorCars](https://spainmotorcars.vercel.app)** | Car dealership showcase focused on clean, visual UX, with legal pages and cookie notice | HTML · SCSS · JavaScript · Webpack · Vercel | [Repo](https://github.com/alvrichh/Spainmotorcars) |
+| **[SpainMotorCars](https://mscarss.vercel.app)** | Car dealership showcase focused on clean, visual UX, with legal pages and cookie notice | HTML · SCSS · JavaScript · Webpack · Vercel | [Repo](https://github.com/alvrichh/Spainmotorcars) |
 | **[DEVOO Imports](https://devooimports.vercel.app)** | Premium olive oil landing and ecommerce frontend with scroll-driven animations | Vite · SCSS · Vanilla JS · GSAP | [Repo](https://github.com/alvrichh/DevooImports) |
 | **[Portfolio](https://alvrich.vercel.app)** | Personal site, prerendered React in 10 languages with light/dark themes | React · TypeScript · SCSS · Vite · Vercel | [Repo](https://github.com/alvrichh/MyPersonalWeb) |
 | **[Stratton.app](https://strattonapp-front.onrender.com/)** | Final degree project (DAW): full stack management app with secured REST API | Java · Spring Boot · Spring Security · Angular | [Repo](https://github.com/alvrichh/Stratton.app-FCT-DAW) |
@@ -75,7 +75,7 @@ Direct links to my published websites, storefronts, tools and games — includin
 | **NeuroLink-AI** | [neurolink-ai-omega.vercel.app](https://neurolink-ai-omega.vercel.app/) | EEG and brain–AI interface research website |
 | **CandySoapp** | [candysoapp.vercel.app](https://candysoapp.vercel.app/) | Handmade soap storefront |
 | **ButaKeando** | [buta-keando.vercel.app](https://buta-keando.vercel.app/) | Furniture storefront |
-| **Spain Motorcars** | [spainmotorcars.vercel.app](https://spainmotorcars.vercel.app/) | Car dealership showcase |
+| **Spain Motorcars** | [mscarss.vercel.app](https://mscarss.vercel.app/) | Car dealership showcase |
 | **DEVOO Imports** | [devooimports.vercel.app](https://devooimports.vercel.app/) | Olive oil brand and ecommerce frontend |
 | **MonsterBroker** | [monsterbroker.onrender.com](https://monsterbroker.onrender.com/) | Crypto trading dashboard and research tools |
 | **Stratton.app** | [strattonapp-front.onrender.com](https://strattonapp-front.onrender.com/) | Full stack management app |
