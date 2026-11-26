@@ -53,7 +53,6 @@ Most of my day-to-day work lives where systems meet. I connect third-party APIs,
 | Project | What it is | Stack | Repo |
 |---|---|---|---|
 | **[MonsterBroker](https://monsterbroker.onrender.com/)** | Crypto trading bot with paper trading, Claude-reviewed signals, live Binance market data, on-chain balances and a daily crypto news radar | Python · FastAPI · React · Vite · JWT · Docker · Claude API | [Repo](https://github.com/alvrichh/MonsterBroker) |
-| **[Butakeando](https://buta-keando.vercel.app)** | Full stack furniture storefront with Stripe Checkout, signed webhooks, PostgreSQL and email notifications | React · FastAPI · PostgreSQL · Stripe · Docker · Render | [Repo](https://github.com/alvrichh/ButaKeando) |
 | **[SpainMotorCars](https://mscarss.vercel.app)** | Car dealership showcase focused on clean, visual UX, with legal pages and cookie notice | HTML · SCSS · JavaScript · Webpack · Vercel | [Repo](https://github.com/alvrichh/Spainmotorcars) |
 | **[DEVOO Imports](https://devooimports.vercel.app)** | Premium olive oil landing and ecommerce frontend with scroll-driven animations | Vite · SCSS · Vanilla JS · GSAP | [Repo](https://github.com/alvrichh/DevooImports) |
 | **[Portfolio](https://alvrich.vercel.app)** | Personal site, prerendered React in 10 languages with light/dark themes | React · TypeScript · SCSS · Vite · Vercel | [Repo](https://github.com/alvrichh/MyPersonalWeb) |
